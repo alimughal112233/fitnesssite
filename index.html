@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Fitness</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <script>
+    $(function () {
+      $(".toggle").on("click", function () {
+        if ($(".item").hasClass("active")) {
+          $(".item").removeClass("active");
+        } else {
+          $(".item").addClass("active");
+        }
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <nav>
+    <ul class="menu">
+      <li class="logo"><a href="#"><span>UNIVERSAL</span> GYM</a></li>
+      <li class="item"><a href="#">Home</a></li>
+      <li class="item"><a href="#">About</a></li>
+      <li class="item"><a href="#">Services</a></li>
+      <li class="item"><a href="#">Client</a></li>
+      <li class="item"><a href="#">Our Work</a></li>
+      <li class="item"><a href="#">Contact</a></li>
+      <li class="toggle"><span class="bars"></span></li>
+    </ul>
+  </nav>
+
+  <div class="firststep">
+    <div class="childimg">
+      <img src="./images/fitnessmodel1.jpeg" alt="image">
+    </div>
+    <div class="imgquote">
+      I am a <span>Gym Trainer</span> From Gujranwala, doing gym is good for healthy life.It helps our body to
+      fit.it release stress from our mind.
+    </div>
+  </div>
+
+
+
+  <div class="secondstep">
+    <div class="imgquote1">
+      <span id="blue">About Me</span>
+      <p>
+        I am a gym Trainer From Gujranwala, doing gym is good for healthy life.It
+        helps our body to fit.it release stress from our mind.
+      </p>
+    </div>
+    <div class="childimg1">
+      <img src="/images/fitnessmodel2.jpg" alt="image">
+    </div>
+  </div>
+
+
+  <div class="thirdstep">
+    <div class="childimg2">
+      <img src="/images/img2.png" alt="image">
+    </div>
+    <div class="imgquote2">
+      <b>BEING BODY</b>
+      <p>
+        BUILDER
+      </p>
+    </div>
+  </div>
+
+
+
+  <div class="fourthstep">
+    <p>
+      <b> Our Services</b>
+    </p>
+    <p>
+      What we Provide
+    </p>
+    <div class="services-row">
+      <div class="services-box">
+        <i class="fa fa-suitcase" aria-hidden="true"></i>
+        <h2>Cardio</h2>
+        <p> From Gujranwala,doing gym is good for healthy life. </p>
+      </div>
+
+      <div class="services-box">
+        <i class="fa fa-suitcase" aria-hidden="true"></i>
+        <h2>Cardio</h2>
+        <p> From Gujranwala,doing gym is good for healthy life. </p>
+      </div>
+
+      <div class="services-box">
+        <i class="fa fa-suitcase" aria-hidden="true"></i>
+        <h2>Cardio</h2>
+        <p> From Gujranwala,doing gym is good for healthy life. </p>
+      </div>
+
+      <div class="services-box">
+        <i class="fa fa-suitcase" aria-hidden="true"></i>
+        <h2>Cardio</h2>
+        <p> From Gujranwala,doing gym is good for healthy life. </p>
+      </div>
+
+      <div class="services-box">
+        <i class="fa fa-suitcase" aria-hidden="true"></i>
+        <h2>Cardio</h2>
+        <p> From Gujranwala,doing gym is good for healthy life. </p>
+      </div>
+
+      <div class="services-box">
+        <i class="fa fa-suitcase" aria-hidden="true"></i>
+        <h2>Cardio</h2>
+        <p> From Gujranwala,doing gym is good for healthy life. </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="fifthstep">
+    <div class="">
+      <h1>
+        <b>
+          Our Member
+        </b>
+        <p>
+          What Our Gym Member Says
+        </p>
+      </h1>
+      <br>
+      <img src="/images/fitnessmodel3.jpg" alt="">
+      <br>
+      <p id="center">
+        From Gujranwala,doing gym is good for healthy life. it helps our body to fit. it release stress from our
+        mind.From Gujranwala,doing gym is good for healthy life. it helps our body to fit. it release stress from our
+        mind.
+      </p>
+    </div>
+  </div>
+
+
+  <div id="work">
+    <div class="services-info">
+      <h1>Our Works</h1>
+      <p>What we Provide</p>
+    </div>
+    <div class="services-row">
+      <div class="work-box">
+        <img src="images/ex1.jpg">
+      </div>
+      <div class="work-box">
+        <img src="images/ex2.jpg">
+      </div>
+      <div class="work-box">
+        <img src="images/ex3.jpg">
+      </div>
+      <div class="work-box">
+        <img src="images/ex4.jpg">
+      </div>
+      <div class="work-box">
+        <img src="images/ex5.jpg">
+      </div>
+      <div class="work-box">
+        <img src="images/ex6.jpg">
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+  <section id="contact">
+    <div class="services-info">
+      <h1>Get in<span id="blue">Touch</span></h1>
+      <p> We are Available</p>
+    </div>
+
+    <div class="contact-row">
+      <div class="contact-left-col">
+        <div class="form">
+          <input type="text" name="" placeholder="E-mail">
+          <input type="text" name="" placeholder="Subject"><br>
+          <textarea rows="10" cols="40" placeholder="Message"></textarea>
+          <br> <button class="c_btn">Send</button>
+        </div>
+      </div>
+      <div class="contact-right-col">
+        <h1><i class="fa fa-envelope-o" aria-hidden="true"></i> E-mail</h1>
+        <p>Ali.Rafiq@gmail.com</p><br>
+        <h1><i class="fa fa-phone" aria-hidden="true"></i> Mobile</h1>
+        <p>0303-9800826</p>
+        <br>
+        <h1><i class="fa fa-location-arrow" aria-hidden="true"></i> Address</h1>
+        <p> Near Kashmir Road<br>
+          Peoples colony, Gujranwala
+        </p>
+      </div>
+    </div>
+
+
+  </section>
+
+
+</body>
+
+</html>
